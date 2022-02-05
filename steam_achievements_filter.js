@@ -1,14 +1,16 @@
 // ==UserScript==
-// @name         steam成就过滤
-// @namespace    https://github.com/Ifover/JS_jioben
-// @version      0.2
-// @description  过滤steam成就，已完成和未完成
+// @name         Steam Achievements Filter
+// @version      0.3
 // @author       Ifover
-// @match        *://steamcommunity.com/stats/*/achievements/
+// @description  过滤steam成就，已完成和未完成
+// @match        *://steamcommunity.com/stats/*/achievements*
 // @icon         https://steamcommunity.com/favicon.ico
 // @grant        GM_getValue
 // @grant        GM_setValue
-// @license      MIT
+// @license      GPL-3.0 License
+// @namespace    https://greasyfork.org/zh-CN/scripts/439041
+// @supportURL   https://github.com/Ifover/JS_jioben
+// @homepageURL  https://github.com/Ifover/JS_jioben
 // ==/UserScript==
 
 var achievementsStatus;
